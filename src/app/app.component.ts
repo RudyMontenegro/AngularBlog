@@ -17,6 +17,40 @@ export class AppComponent {
   }
   names: string[] = ['Rudy', 'Valeria', 'Alex'] ;
   newName = '';
+
+  products = [
+    {
+      name: 'El juguete bb',
+      price: 565,
+      image: 'https://source.unsplash.com/random'
+    },
+    {
+      name: 'Una bicicleta',
+      price: 55,
+      image: 'https://source.unsplash.com/random'
+    },
+    {
+      name: 'Una moto',
+      price: 55,
+      image: 'https://source.unsplash.com/random'
+    },
+    {
+      name: 'Papel higinenico',
+      price: 55,
+      image: 'https://source.unsplash.com/random'
+    },
+    {
+      name: 'Tapete de mouse',
+      price: 55,
+      image: 'https://source.unsplash.com/random'
+    },
+    {
+      name: 'Laborgini',
+      price: 5343243,
+      image: 'https://source.unsplash.com/random'
+    },
+  ]
+
   toggleButton() {
     this.btnDisabled = !this.btnDisabled;
   }
